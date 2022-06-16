@@ -1,0 +1,19 @@
+{
+  "name": "crud_api_usermanagement_infiniteloop",
+  "version": "1.0.0",
+  "description": "CRUD API for creating a user directory.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "author": "Yajnesh A P",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
